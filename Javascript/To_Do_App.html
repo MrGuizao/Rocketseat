@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>JS</title>
+</head>
+
+<body>
+     <style>
+          *{
+               box-sizing: border-box;
+               text-decoration: none;
+               list-style: none;
+          }
+          body {
+               background-color: #f8e218;
+               color: #000000;
+               font-size: 1.2rem;
+               text-align: center;
+               text-transform: uppercase;
+          }
+          input, button{
+               border-radius: 10px;
+               padding: 12px 25px;
+               border: none;
+               text-transform: capitalize;
+               color: white;
+               background-color: #5c3c99;
+               font-size: 1rem;
+          }
+          .teste{
+               margin: 0;
+               font-size: 3em;
+               background-color: brown;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+          .todo{
+               margin: 30px auto;
+               /* padding: 0px 20px; */
+               background-color: #5272ff;
+               width: 60%;
+               height: auto;
+               border-radius: 10px;
+               border: #000000 3px solid;
+          }
+          a{
+               font-size: 1rem;
+               text-decoration: none;
+               color: white;
+          }
+          .todo--element{
+               border-bottom: #000000 2px solid;
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               /* text-align: left; */
+               color: #ffd000;
+               font-weight: 700;
+               font-size: 1.4rem;
+          }
+          .todo--element:nth-last-child(1){
+               border: none;
+          }
+          .todo--element:hover{
+               background-color: #6581ff;
+          }
+          section.todo input{
+               width: 84%;
+               padding: 15px;
+               margin: 20px 0;
+               background-color: #d4d4d4;
+          }
+          ::placeholder{
+               color: #2c2c2c;
+          }
+          a, li{
+               padding: 8px;
+          }
+     </style>
+     <section>
+          <h1>curso de javascript</h1>
+          <h2>01 - variaveis</h2>
+          <input type="text" name="gui">
+          <button class="cus" id="cuu">Click me!</button>
+          <div id="alo">
+
+          </div>
+     </section>
+
+     <p style="font-size: 2.5rem; font-weight: 700;">app to-do list</p>
+
+     <section class="todo">
+          <div class="list">
+
+
+          </div>
+          <input type="text" placeholder="Adicionar a lista...">
+          <button id="btnAdd">Adicionar</button>
+     </section>
+
+
+     <!-- <script src="js/variaveis.js"></script>
+     <script src="js/function.js"></script> -->
+     <script src="js/DOM.js"></script>
+     <script src="js/To_Do.js"></script>
+</body>
+
+</html>
